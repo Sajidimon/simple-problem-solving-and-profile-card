@@ -1,3 +1,8 @@
+body{
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .card{
     border-radius: 10px;
     margin: 80px auto 80px auto;
@@ -5,6 +10,30 @@
     height: 400px;
     width: 300px;
     padding: 10px;
-    box-shadow: 10px, 10px, 20px, 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: aliceblue;
+}
+
+.card img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card h2{
+    margin-bottom: 0px;
+}
+.card p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.card button{
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 3px;
+    color: aliceblue;
+    padding: 5px 10px 5px 10px;
+    margin-left: 25px;
+    margin-top: 20px;
 }
